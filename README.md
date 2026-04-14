@@ -48,3 +48,4 @@ src/
 - **Skills** → `src/components/Skills.tsx` (SKILL_CATEGORIES array)
 - **Contact info** → `src/components/Contact.tsx`
 - **Theme colours** → `src/index.css` (CSS variables in :root)
+
