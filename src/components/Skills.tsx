@@ -8,6 +8,7 @@ import {
   SiJavascript,
   SiHtml5,
   SiCss,
+  SiJava,
   SiGnubash,
   SiGit,
   SiLinux,
@@ -36,6 +37,7 @@ const SKILL_CATEGORIES = [
       { name: "JavaScript", icon: SiJavascript },
       { name: "Python", icon: SiPython },
       { name: "Flask", icon: SiFlask },
+      { name: "Java", icon: SiJava },
     ],
   },
   {
