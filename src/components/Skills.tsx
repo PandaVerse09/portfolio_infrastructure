@@ -8,12 +8,12 @@ import {
   SiJavascript,
   SiHtml5,
   SiCss,
-  SiJava,
   SiGnubash,
   SiGit,
   SiLinux,
   SiVim,
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
 
 import { Cloud, ArrowRightLeft } from "lucide-react";
@@ -37,7 +37,7 @@ const SKILL_CATEGORIES = [
       { name: "JavaScript", icon: SiJavascript },
       { name: "Python", icon: SiPython },
       { name: "Flask", icon: SiFlask },
-      { name: "Java", icon: SiJava },
+      { name: "Java", icon: FaJava },
     ],
   },
   {
