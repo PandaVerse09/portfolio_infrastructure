@@ -5,7 +5,6 @@ import {
   SiNginx,
   SiPython,
   SiFlask,
-  SiJavascript,
   SiHtml5,
   SiCss,
   SiGnubash,
@@ -14,6 +13,7 @@ import {
   SiVim,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
+import { FaJs } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
 
 import { Cloud, ArrowRightLeft } from "lucide-react";
@@ -34,7 +34,7 @@ const SKILL_CATEGORIES = [
     skills: [
       { name: "HTML", icon: SiHtml5 },
       { name: "CSS", icon: SiCss },
-      { name: "JavaScript", icon: SiJavascript },
+      { name: "JavaScript", icon: FaJs },
       { name: "Python", icon: SiPython },
       { name: "Flask", icon: SiFlask },
       { name: "Java", icon: FaJava },
