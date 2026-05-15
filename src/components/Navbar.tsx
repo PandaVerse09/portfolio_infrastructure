@@ -7,8 +7,8 @@ const NAV_LINKS = [
   { name: "Timeline", href: "#timeline" },
   { name: "Projects", href: "#projects" },
   { name: "Skills", href: "#skills" },
-  { name: "Contact", href: "#contact" },
   { name: "experience", href: "#experience" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
