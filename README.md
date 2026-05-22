@@ -124,6 +124,32 @@ portfolio_v2/
 
 ---
 
+## 🌍 Production Challenges & Solutions
+
+### SPA Routing Fix (CloudFront + React)
+
+While deploying the React/Vite application on AWS S3 + CloudFront, direct route access and page refreshes resulted in 403/404 errors due to client-side routing.
+
+Implemented CloudFront custom error responses to correctly serve `index.html` for unknown routes:
+
+- 403 → `/index.html` → `200`
+- 404 → `/index.html` → `200`
+
+This ensured proper SPA routing support across browsers and devices.
+
+---
+
+## 🚀 Future Improvements
+
+- Custom domain with Route53
+- HTTPS via ACM
+- Dockerized deployment
+- Terraform Infrastructure as Code (IaC)
+- Monitoring & logging integration
+- Multi-environment CI/CD pipeline
+
+---
+
 ## 📊 What This Project Demonstrates
 
 ✔ Modern frontend development (React + TypeScript)
