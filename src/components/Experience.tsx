@@ -3,7 +3,7 @@ import { Briefcase, CalendarDays, MapPin } from "lucide-react";
 
 const experiences = [
   {
-    role: "DevOps Engineer Intern",
+    role: "Software Engineer Intern",
     company: "i2k2 Networks (P) Limited",
     location: "Remote",
     duration: "Jan 2026 - April 2026",
