@@ -3,6 +3,19 @@ import { Briefcase, CalendarDays, MapPin } from "lucide-react";
 
 const experiences = [
   {
+    role: "Backend & DevOps Intern",
+    company: "UPPCL (Uttar Pradesh Power Corporation Ltd.)",
+    location: "Lucknow, Uttar Pradesh",
+    duration: "Jun 2026 - Present",
+    points: [
+      "Built a MERN-based Consolidated Billing System for UPPCL.",
+      "Developed 25+ secure REST APIs using JWT, bcrypt, and validation middleware.",
+      "Implemented MongoDB schema design and RBAC authorization.",
+      "Managed Linux servers, Nginx deployment, and API testing with Jest/Supertest.",
+    ],
+  },
+
+  {
     role: "Software Engineer Intern",
     company: "i2k2 Networks (P) Limited",
     location: "Remote",
