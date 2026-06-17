@@ -16,37 +16,60 @@ import { FaJava } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
 
+import {
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiReact,
+  SiPostman,
+  SiTailwindcss,
+} from "react-icons/si";
+
 import { Cloud, ArrowRightLeft } from "lucide-react";
 
 const SKILL_CATEGORIES = [
   {
     title: "Cloud & DevOps",
     skills: [
+      { name: "AWS", icon: FaAws },
       { name: "Docker", icon: SiDocker },
-      { name: "AWS(EC2, S3, CloudFront", icon: FaAws },
       { name: "Nginx", icon: SiNginx },
       { name: "GitHub Actions", icon: SiGithubactions },
       { name: "CI/CD", icon: ArrowRightLeft },
+      { name: "Linux", icon: SiLinux },
     ],
   },
   {
-    title: "Development & Backend",
+    title: "Backend & MERN",
     skills: [
-      { name: "HTML", icon: SiHtml5 },
-      { name: "CSS", icon: SiCss },
+      { name: "Node.js", icon: SiNodedotjs },
+      { name: "Express.js", icon: SiExpress },
+      { name: "MongoDB", icon: SiMongodb },
+      { name: "React 18", icon: SiReact },
       { name: "JavaScript", icon: FaJs },
-      { name: "Python", icon: SiPython },
-      { name: "Flask", icon: SiFlask },
       { name: "Java", icon: FaJava },
     ],
   },
   {
     title: "Tools & Environment",
     skills: [
-      { name: "Linux", icon: SiLinux },
       { name: "Git", icon: SiGit },
-      { name: "Bash", icon: SiGnubash },
-      { name: "Vim", icon: SiVim },
+      { name: "GitHub", icon: SiGit },
+      { name: "Postman", icon: SiPostman },
+      { name: "HTML5", icon: SiHtml5 },
+      { name: "CSS3", icon: SiCss },
+      { name: "Tailwind CSS", icon: SiTailwindcss },
+    ],
+  },
+  {
+    title: "Backend Engineering",
+    skills: [
+      { name: "REST APIs", icon: Cloud },
+      { name: "JWT Auth", icon: Cloud },
+      { name: "RBAC", icon: Cloud },
+      { name: "Multer", icon: Cloud },
+      { name: "Jest", icon: Cloud },
+      { name: "Supertest", icon: Cloud },
     ],
   },
 ];
